@@ -4,6 +4,12 @@ Jackywine 可共享的 skills 合集（JKS = Jackywine Skills）。
 
 这里存放可复用、可开源的 agent skill：给 Grok Bot / Cursor 等助手直接加载，也可给其他人 fork 使用。
 
+## Skills
+
+| Skill | 路径 | 说明 |
+|-------|------|------|
+| jackywine 早报 | [`skills/jackywine-morning-brief/`](skills/jackywine-morning-brief/) | 可共享早报模板：精选笔记串库、设计列表周热、我的推、优质列表日热、可选必要难度滴灌 |
+
 ## 目录约定
 
 每个 skill 一个子目录，内含 `SKILL.md`（以及需要时的辅助文件）。
@@ -25,4 +31,4 @@ skills/
 
 ## License
 
-未另行声明前，以仓库根目录 LICENSE 为准；若暂无 LICENSE，请先联系作者再二次分发。
+[MIT](LICENSE) © Jackywine
